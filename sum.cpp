@@ -1,6 +1,6 @@
 #include "sum.h"
 
-int sum(int n){
-	return n*(n+1)/2;
+int sum(int a, int b){
+	return b*(b+1)/2 - (a-1)*a/2;
 }
 
